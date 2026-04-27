@@ -9,7 +9,7 @@
     <header>
       <a href="/">
         <h1>Welcome to MoringaCon 2026</h1>
-        <p>The Ultimate Technology and Programming Conference</p>
+        <p id="header-p">The Ultimate Technology and Programming Conference</p>
       </a>
     </header>
 
@@ -93,20 +93,22 @@
       <form>
         <!-- full name input -->
         <label for="full name">Name:</label><br />
-        <input type="text" id="full name" name="name" /><br />
+        <input type="text" id="full-name" name="name" /><br />
       </form>
 
       <!-- email input -->
       <form>
         <label for="Email">Email:</label><br>
-        <input type="email" id="Email" name="email" /><br>
+        <input type="email" id="email" name="email" /><br>
       </form>
       <!-- message input -->
       <form>
         <label for="message">Message:</label><br>
-        <textarea name="Message" id="Message" rows="4"></textarea> <br><br>
-        <button type="submit">Send</button>
+        <textarea name="Message" id="message" rows="4"></textarea> <br><br>
+        <button type="submit" id="submit-button">Send</button>
       </form>
     </section>
+    <script src ="code.js" defer></script>
+
   </body>
 </html>
